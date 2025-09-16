@@ -19,7 +19,7 @@ public class Main {
     userinput.nextLine();
 
     // Removed self-assignment to avoid messing up calculation on line 28
-    // If I would have left it, I would have needed to change `s + 5 = s` to
+    // If I had left it, I would have needed to change `s + 5 = s` to
     // `s = s + 5` because `s + 5` is an rvalue, not an lvalue.
     System.out.println("In 5 years you will be " + (s + 5) + " years old.");
 
